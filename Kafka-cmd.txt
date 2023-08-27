@@ -1,0 +1,7 @@
+
+#open this and run in these three different terminal
+C:\kafka_2.13-3.5.0>
+
+>bin\windows\zookeeper-server-start.bat config\zookeeper.properties
+>bin\windows\kafka-server-start.bat config\server.properties
+>bin\windows\kafka-console-consumer.bat --topic location-user-topic --from-beginning --bootstrap-server localhost:9092
