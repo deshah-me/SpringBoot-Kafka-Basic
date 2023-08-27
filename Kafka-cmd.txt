@@ -2,6 +2,11 @@
 #open this and run in these three different terminal
 C:\kafka_2.13-3.5.0>
 
+#code to start the zookeeper server
 >bin\windows\zookeeper-server-start.bat config\zookeeper.properties
+
+#code to start the kafka server
 >bin\windows\kafka-server-start.bat config\server.properties
+
+#code to start the kafka cllient
 >bin\windows\kafka-console-consumer.bat --topic location-user-topic --from-beginning --bootstrap-server localhost:9092
